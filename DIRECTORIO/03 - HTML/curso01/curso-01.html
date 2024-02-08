@@ -1,0 +1,164 @@
+<!--define que estandar de documento se esta siguiendo-->
+<!DOCTYPE html>
+<html lang="es"> <!--indica el idioma de la pagina -->
+
+<!--el head es para poner meta datos y no se renderiza-->
+
+<head>
+    <meta charset="UTF-8"> <!--codificacion que tiene que usar-->
+
+    <!--hace que la pantalla sea adaptable-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<!--es donde va el contenido o cuerpo-->
+
+<body>
+    <!--! etiquetas de seccion de contenido -->
+    <!--! <header> , <main> , <footer> -->
+
+    <header><!--! es la cabecera de la pagina -->
+        <!-- menu de navegacion, logo, redes sociales-->
+        Inicio
+        Novelas
+        Peliculas
+        Contacto
+    </header>
+
+    <main>
+
+        <!-- es donde va el contenido principal de la pagina-->
+
+        <h1 id="tope">MI PORTAFOLIO</h1>
+        <!--pondremos en cursiva , en negrita y subrayado-->
+        <p><i>solo es una prueba y esto es el</i> <b>parrafo</b> o <u>donde va el parrafo</u></p>
+        <p>+1 año de experiencia como <strong> jugador de dota,</strong>
+            programador y trabajador.</p>
+
+        <!--esta etiquera pone en sangria todo el texto -->
+
+        <blockquote>
+            todo lo que escriba dentro de esta etiqueta estara en sangria
+        </blockquote>
+
+        <!-- esto es un ipervinculo ( href="")-->
+        <p>si quieres mas info pudes visitar el perfil de
+            <a href="https://www.facebook.com/profile.php?id=100092979308176"> jean carlos ccoicca</a>
+        </p>
+        <br>
+        <!-- agregar un direccion interna href="#" -->
+        <h2>INDICE</h2>
+        <P><a href="#java">Ir a Java</a></P>
+        <P><a href="#PHP">Ir a PHP</a></P>
+        <P><a href="#C">Ir a c++</a></P>
+
+
+
+        <img src="images/yo.jpg" width="200" height="200">
+
+        <!--definimos el tamaño de la letra-->
+        <h1 style="font-size:100px;">Heading 1</h1>
+
+        <hr>
+
+
+
+        <!-- ES UN ESTILO PARA PONER COLOR AL FONDO -->
+        <h1 style="background-color:rgb(23, 192, 127);">This is a heading</h1>
+
+        <!-- ES UNA ESTILO PARA PONER COLOR A LA LETRAS -->
+        <h1 style="color:blue;">This is a heading</h1>
+        <p style="color:red;">This is a paragraph.</p>
+
+        <!-- La propiedad CSS font-familydefine la fuente que se utilizará para un elemento HTML: -->
+        <h1 style="font-family:verdana;">This is a heading</h1>
+        <p style="font-family:courier;">This is a paragraph.</p>
+
+
+        <h1 style="color: rgb(187, 21, 118);"><i>ESTO ES UNA TABLA</i></h1>
+        <!-- HACER TABLAS -->
+        <table border="5">
+            <tr>
+                <th>colum 01</th>
+                <th>colum 02</th>
+                <th>colum 03</th>
+
+            </tr>
+            <!-- hacer filas de una tabla -->
+            <tr>
+                <!-- hacer las columnas -->
+                <td>name</td>
+                <td>lasname</td>
+                <td>age</td>
+            </tr>
+            <tr>
+                <!-- hacer las columnas -->
+                <td>city</td>
+                <td>postal</td>
+                <td>direccion</td>
+            </tr>
+            <tr>
+                <!-- hacer las columnas -->
+                <td>pais</td>
+                <td>departamento</td>
+                <td>provincia</td>
+            </tr>
+        </table>
+
+        <h2 id="java"><u>Java</u></h2>
+        <h3>Java SE</h3>
+        <P style="color: rgb(20, 17, 201);"> <strong>EN ESTA PARTE TENDRIA QUE IR ALGO DE JAVA</strong></P>
+
+        <h2 id="PHP"><u>PHP</u></h2>
+        <h3>PHP TUTO</h3>
+        <P style="color: rgb(20, 17, 201);"> <strong>EN ESTA PARTE TENDRIA QUE IR ALGO DE PHP</strong></P>
+
+        <h2 id="C"><u>C++</u></h2>
+        <h3>C++ TUTO</h3>
+        <P style="color: rgb(20, 17, 201);"> <strong>EN ESTA PARTE TENDRIA QUE IR ALGO DE C++</strong></P>
+        <br>
+        <p><a href="#tope">VOLVER ARRIBA</a></p>
+
+        <img src="https://fifpro.org/media/fhmfhvkx/messi-world-cup.jpg?rxy=0.48356841796117644,0.31512414378031967&width=1000&height=640&rnd=133210253587130000"
+            width="400">
+        <br>
+        <br>
+        <br>
+
+        <h1 style="color: brown;">ESTE VIDEO ES DEL MISMO DISCO</h1>
+        <br>
+        <video src="videos/v1.mp4" width="400" controls></video>
+        <br>
+        <br>
+        <br>
+
+        <h1 style="color: blueviolet;">ESTE VIDEO ES DE YOUTUBE</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VAIn-cUSUHg?si=0MZvD9DHcgW1IOaH"
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+        picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+        <h1 style="color: brown;">COLOCAREMOS UN AUDIO</h1>
+        <!-- esta la forma de colocar un audio -->
+        <audio src="audio/004 - No Recomendable - Todo Está Bien.mp3" controls></audio>
+
+        <footer> <!-- el pie de pagina-->
+            <br>
+            curso HTML2024-2025
+        </footer>
+
+        <!-- section vs article -->
+        <h1>section vs article</h1>
+
+        <body>
+            <section>
+                <h2>Noticias del Dia</h2>
+            </section>
+
+        </body>
+    </main>
+
+</body>
+
+</html>
