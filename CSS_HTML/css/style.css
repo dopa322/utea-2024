@@ -1,0 +1,73 @@
+/* poner color por clases */
+.lista-de-gatos {
+    color: chocolate;
+}
+
+/* cambiar el tamano de las letras */
+
+/*h2 {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 25px;
+}*/
+
+/* 
+p,
+ul,
+ol {
+    font-size: 20px;
+} */
+
+/* cambiar color y tamano de la letra */
+/*
+li {
+    color: blue;
+    font-size: 15px;
+}*/
+
+/* cambiar el tipo de letra o fuente */
+/*
+@font-face{
+    font-family: 'soul';
+    src: url(/CSS_HTML/fuentes/soul-billani/SoulBillani.otf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+h2 {
+    font-family: 'soul';
+    font-weight: bold;
+}*/
+/* USAR TIPO DE LETRA disponible */
+/*h2 {
+    font-family: Verdana;
+}*/
+
+/* usaremos google fonts para tipos de letras */
+h2 {
+    font-family: 'Merienda', cursive;
+    font-size: 50PX;
+}
+
+/* CAMBAIR TAMANO DE IMAGENES */
+/* anadir bordes alrededor de un elemento */
+.img-de-gato {
+    width: 400px;
+    /* 1 */
+    border-width:10px ;
+    border-color: rgb(255, 181, 236);
+    border-style: solid dashed dotted double;
+
+    border-radius: 50%;
+}
+
+/* esquinas redondeadas */
+
+.borde-redondeado {
+    width: 500px;
+    border-radius: 150%;
+}
+
+/* color de Fondo en un <div> */

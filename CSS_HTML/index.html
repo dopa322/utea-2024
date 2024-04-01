@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- el head contienen los meta datos -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppDeGatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+    <!-- conectar al css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>AppDeGatos</h2>
+    <main>
+
+        <h3 id="imagen">Imagenes de Gatos</h3>
+        <P>Haz click aqui para ver mas <a href="https://giphy.com/embed/W80Y9y1XwiL84" target="_blank" rel="noopener noreferrer">imagenes de gatos</a></P>
+        <!-- EL (a) es para poner un enlace -->
+        <a href="#" target="_blank"><img src="image/gato1.webp" class="img-de-gato" alt="gato duren" ></a>
+
+        <!-- linea horizontal -->
+        <hr>
+        <!-- hacer lista no ordenadas -->
+        <h3>Lista de gatos</h3>
+
+        <div>
+            <!-- poner en cursiva -->
+            <p>Cosas que los gatos <em>aman</em>: </p>
+
+            <ul>
+                <li>Menta gatuna</li>
+                <li>Apuntadores Laser</li>
+                <!-- tachar la palabra -->
+                <li><S>Lasaña</S></li>
+            </ul>
+            
+            <!-- lista ordenada -->
+            <!-- tambien usamos el strong para hacer letra negrita -->
+            <p>Cosas que los gatos <strong>odian</strong>: </p>
+            <ol>
+                <li>Tratamientos antipulgas</li>
+                <li>Truenos</li>
+                <li>Otros gatos</li>
+            </ol>
+        </div>
+        <img src="image/gato2.webp"  class="borde-redondeado"  alt="grupo de gatos" >
+
+        <!-- hacer un formulario -->
+        <form action="/enviar-respuesta">
+
+            <!-- poner botones de radio , el label es para que se seleccionen los botones tocando el texto -->
+            <!-- para que solo se seleccione uno se usa el name -->
+            <!-- usamos el elemento (checked) que es para que se parque por defecto -->
+            <label for="interior">
+                <input id="interior" type="radio" value="interior" 
+                name="interior-exterior" checked>Interior 
+            </label> <br>
+            <label for="exterior">
+                <input id="exterior" type="radio" value="exterior"
+                name="interior-exterior">Exterior
+            </label> <br>
+
+                <p>Personalidad de tu gato</p>
+                <!-- casillas de verificacion -->
+                <!-- se usa el elemento (value para indicar al servidor) -->
+                <label for="cari">
+                    <input id="cari" type="checkbox" value="cari"
+                    name="personalidad" checked>cariñoso
+                </label><br> 
+                <label for="pere">
+                    <input id="pere" type="checkbox" value="pere"
+                    name="personalidad">Perezoso
+                </label><br>
+                <label for="ener">
+                    <input id="ener" type="checkbox" value="ener"
+                    name="personalidad">Energico
+                </label><br>
+
+            <!-- crear la celda, dar indicacion y obligar a ingresar alfun dato -->
+        <br>
+            <input type="text" placeholder="URL de la foto de tu gato" required >
+            <button type="submit">enviar</button>
+        </form>
+
+
+    </main>
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+        <!-- usamos la etiqueta small, hace mas pequeno el texto -->
+        <p><strong><small>Con derechos de autor @dopa2024</small></strong></p>
+    </footer>
+</body>
+</html>
